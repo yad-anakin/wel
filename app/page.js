@@ -14,7 +14,7 @@ export default function Home() {
     setShowSplash(true);
     setTimeout(() => {
       router.push(TARGET_URL);
-    }, 8000);
+    }, 2000);
   };
 
   return (
